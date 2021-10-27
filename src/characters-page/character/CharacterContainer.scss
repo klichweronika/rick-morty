@@ -1,0 +1,39 @@
+.character-container {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 1rem;
+  flex: 1 1 auto;
+
+  &__back-button {
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: #2f783b;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin: auto;
+    width: 60%;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__frame {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.adittional-info {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+
+  &__paragraph {
+    text-align: center;
+  }
+}
