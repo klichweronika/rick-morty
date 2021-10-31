@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Rick and Morty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application takes characters data from the Rick and Morty series and displays them one by one. Clicking on a character causes redirect to another page where is shown additional information. Initially, 20 characters are displayed and the button at the bottom of the page displays more. I used React, React-Router, TypeScript and Sass to build this application. I focused on the readability of the code and the separation of the data layer from the appearance layer. The application is responsive.
 
 ## Available Scripts
 
